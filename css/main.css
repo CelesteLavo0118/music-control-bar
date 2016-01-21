@@ -51,7 +51,7 @@ body {
 }
 
 .time {
-position: absolute;
+
 }
 
 .time-bar {
@@ -63,8 +63,9 @@ position: absolute;
   border: 0;
   background-color: #aaa;
   position: absolute;
-  width: 300px;
-  left: 0;
+  width: 100%;
+  left: 50px;
+  bottom: 0;
 }
 
 /*
@@ -84,10 +85,16 @@ position: absolute;
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  left: 55px;
+  top: 25px;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  top: 25px;
+  right: 2px;
 }
 
 .controls {
