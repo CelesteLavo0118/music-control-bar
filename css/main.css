@@ -63,6 +63,8 @@ position: absolute;
   border: 0;
   background-color: #aaa;
   position: absolute;
+  width: 300px;
+  left: 0;
 }
 
 /*
@@ -99,8 +101,9 @@ position: absolute;
 
 .control-shuffle {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 0;
+  left: 8%;
+  font-size: 1rem;
 }
 
 .control-list {
