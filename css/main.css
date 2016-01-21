@@ -114,6 +114,7 @@ position: absolute;
 
 .control-heart {
   position: absolute;
-  top: 1em;
-  right: 3em;
+  top: 2px;
+  right: 22px;
+  font-size: 1.2rem;
 }
